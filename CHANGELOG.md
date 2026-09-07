@@ -9,6 +9,9 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Spotify playlist folders appear in Your Library. The Playlists list and grid show each folder as
+  a group that opens and closes, nested folders included, and typing in the filter field opens
+  every folder holding a match.
 - Deezer as a provider: your favorites, playlists, albums and search, with FLAC playback where
   the account allows it.
 
