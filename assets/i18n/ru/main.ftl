@@ -150,6 +150,7 @@ menu-paste = Вставить
 menu-select-all = Выделить всё
 menu-remove-from-queue = Убрать из очереди
 menu-open-playlist = Открыть плейлист
+menu-open-folder = Открыть папку
 menu-play-playlist = Воспроизвести плейлист
 menu-rename-playlist = Переименовать плейлист
 menu-delete-playlist = Удалить плейлист
@@ -391,6 +392,7 @@ kind-song = Трек
 kind-artist = Исполнитель
 kind-album = Альбом
 kind-playlist = Плейлист
+kind-folder = Папка
 
 # song page
 song-eyebrow = Трек
@@ -455,6 +457,12 @@ count-playlists =
         [one] { $count } плейлист
         [few] { $count } плейлиста
        *[other] { $count } плейлистов
+    }
+count-folders =
+    { $count ->
+        [one] { $count } папка
+        [few] { $count } папки
+       *[other] { $count } папок
     }
 
 # dates
@@ -805,3 +813,7 @@ nav-pins-alphabetical = По алфавиту
 nav-pins-kind = По типу
 nav-show-full-library = Показывать всю медиатеку
 nav-return-top = Наверх
+
+# playlist folders
+folder-empty = Эта папка пуста
+folder-missing = Этой папки больше нет в вашей медиатеке
